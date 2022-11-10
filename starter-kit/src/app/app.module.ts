@@ -38,6 +38,14 @@ const routes:Route[] = [
     component:PostDetailsPage
   },
   {
+    path:"login",
+    component:LoginPage
+  },
+  {
+    path:"registation",
+    component:RegistationPage
+  },
+  {
     path:"users",
     component:UsersPage,
     children:[
